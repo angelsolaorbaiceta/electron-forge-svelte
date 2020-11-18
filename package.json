@@ -42,7 +42,7 @@
     "electron": "^11.0.0",
     "jest": "^25.5.4",
     "node-sass": "^4.14.1",
-    "rollup": "^2.32.0",
+    "rollup": "^2.33.2",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-postcss": "^3.1.8",
     "rollup-plugin-svelte": "^6.1.1",
