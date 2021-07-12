@@ -27,10 +27,10 @@
     "sirv-cli": "^1.0.11"
   },
   "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.54",
+    "@electron-forge/cli": "^6.0.0-beta.57",
     "@electron-forge/maker-deb": "^6.0.0-beta.57",
     "@electron-forge/maker-rpm": "^6.0.0-beta.57",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.57",
     "@electron-forge/maker-zip": "^6.0.0-beta.54",
     "@rollup/plugin-alias": "^3.1.2",
     "@rollup/plugin-commonjs": "^18.0.0",
@@ -50,6 +50,6 @@
     "svelte": "^3.38.3",
     "svelte-preprocess": "^4.7.4",
     "ts-jest": "^25.5.1",
-    "typescript": "^3.9.9"
+    "typescript": "^3.9.10"
   }
 }
