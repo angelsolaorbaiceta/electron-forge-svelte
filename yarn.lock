@@ -284,17 +284,6 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@electron-forge/async-ora@6.0.0-beta.61":
-  version "6.0.0-beta.61"
-  resolved "https://registry.yarnpkg.com/@electron-forge/async-ora/-/async-ora-6.0.0-beta.61.tgz#155ad97d52d245893c91138cb53fffb76eec2202"
-  integrity sha512-K+9fwnLbcV7TmgDxZO0PMdh1Cs1dWPFmVRfLRPBTS1NFsbiJqVwMVNZiL7fXV8ruWQDi7VXC8I42poLIVhcg0A==
-  dependencies:
-    colors "^1.4.0"
-    debug "^4.3.1"
-    log-symbols "^4.0.0"
-    ora "^5.0.0"
-    pretty-ms "^7.0.0"
-
 "@electron-forge/async-ora@6.0.0-beta.63":
   version "6.0.0-beta.63"
   resolved "https://registry.yarnpkg.com/@electron-forge/async-ora/-/async-ora-6.0.0-beta.63.tgz#b72343f204f7c74605df658d31cc4c137ad3009c"
@@ -428,15 +417,6 @@
     "@malept/cross-spawn-promise" "^2.0.0"
     fs-extra "^10.0.0"
 
-"@electron-forge/maker-base@6.0.0-beta.61":
-  version "6.0.0-beta.61"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-base/-/maker-base-6.0.0-beta.61.tgz#9727049ca8fceef77ef1f939c8108cea5fc22cf8"
-  integrity sha512-Q4FC11hNr/556lVNAT9TPY6whjSXCQqJb6IS0hNCdvlIX13mrb755fhsOSIdao9DKS2huYDZBN7ZkwcOcziJHQ==
-  dependencies:
-    "@electron-forge/shared-types" "6.0.0-beta.61"
-    fs-extra "^10.0.0"
-    which "^2.0.2"
-
 "@electron-forge/maker-base@6.0.0-beta.63":
   version "6.0.0-beta.63"
   resolved "https://registry.yarnpkg.com/@electron-forge/maker-base/-/maker-base-6.0.0-beta.63.tgz#4e9cbff3775bea08938dd3aa5a48c3e9479b9be6"
@@ -446,13 +426,13 @@
     fs-extra "^10.0.0"
     which "^2.0.2"
 
-"@electron-forge/maker-deb@^6.0.0-beta.61":
-  version "6.0.0-beta.61"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-deb/-/maker-deb-6.0.0-beta.61.tgz#87f4ad9c7b49ecbb1c3e78af695b8ff0bacec940"
-  integrity sha512-MzzlvSXB8r4Fiya2HvopqovWzzDGfam9/j0AKA0UdTCgJpavBzckRLNZwqwdltubm++3AuHNX+eLZ86GVfG4bA==
+"@electron-forge/maker-deb@^6.0.0-beta.63":
+  version "6.0.0-beta.63"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-deb/-/maker-deb-6.0.0-beta.63.tgz#7a56c0c36c474b1cce9f966aa852242a5336a4d4"
+  integrity sha512-6U4SQ9qFqd0UPCTfJU6358ifxnLvMxJmwyy3Z/4lZlYIfL2112gsQRyvlv7UcFXamw+1CZ9n9SY3f/K50susEQ==
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.61"
-    "@electron-forge/shared-types" "6.0.0-beta.61"
+    "@electron-forge/maker-base" "6.0.0-beta.63"
+    "@electron-forge/shared-types" "6.0.0-beta.63"
   optionalDependencies:
     electron-installer-debian "^3.0.0"
 
@@ -500,16 +480,6 @@
   integrity sha512-ag+/e6eqM6k1jxUhXg8618IbUa1IsF8OcbZtjcLSZSp/ZEGLAlZ3IpfIrk5C9cRUdibhDJyT6oFLfbG7KUhpRg==
   dependencies:
     "@electron-forge/shared-types" "6.0.0-beta.63"
-
-"@electron-forge/shared-types@6.0.0-beta.61":
-  version "6.0.0-beta.61"
-  resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-6.0.0-beta.61.tgz#678bb174ae39edca8e27143559830e222b32ae19"
-  integrity sha512-VsFGVY5hXqEmhb36fg1CK57bPnYDZ/kYB9iZBNoXJVOHua9lW6HJaTXKXEsFfmCJi5U9hHLhfPtcIlNHPbG3/A==
-  dependencies:
-    "@electron-forge/async-ora" "6.0.0-beta.61"
-    electron-packager "^15.4.0"
-    electron-rebuild "^3.2.2"
-    ora "^5.0.0"
 
 "@electron-forge/shared-types@6.0.0-beta.63":
   version "6.0.0-beta.63"
@@ -2045,11 +2015,6 @@ color@^3.0.0:
     color-convert "^1.9.1"
     color-string "^1.5.2"
 
-colors@^1.3.3, colors@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
-  integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
-
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
@@ -2720,25 +2685,6 @@ electron-packager@^15.4.0:
     resolve "^1.1.6"
     semver "^7.1.3"
     yargs-parser "^20.0.0"
-
-electron-rebuild@^3.2.2:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/electron-rebuild/-/electron-rebuild-3.2.3.tgz#2c0b06b7b1a5240fec96f1d368d04222e2590c3d"
-  integrity sha512-9oxNmKlDCaf651c+yJWCDIBpF6A9aY+wQtasLEeR5AsPYPuOKEX6xHnC2+WgCLOC94JEpCZznecyC84fbwZq4A==
-  dependencies:
-    "@malept/cross-spawn-promise" "^2.0.0"
-    colors "^1.3.3"
-    debug "^4.1.1"
-    detect-libc "^1.0.3"
-    fs-extra "^10.0.0"
-    got "^11.7.0"
-    lzma-native "^8.0.1"
-    node-abi "^2.19.2"
-    node-api-version "^0.1.4"
-    node-gyp "^8.1.0"
-    ora "^5.1.0"
-    tar "^6.0.5"
-    yargs "^17.0.1"
 
 electron-rebuild@^3.2.6:
   version "3.2.7"
@@ -5067,15 +5013,6 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lzma-native@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/lzma-native/-/lzma-native-8.0.1.tgz#8569e2f88de461a9a2469ac9d8183637c387d682"
-  integrity sha512-Ryr9X3yDVZhRYOxR8QhUBCNe6GdEfy9BvFDIFtUvEkocvSvnrYt9lRm6FR1z0eQn0QSMenrgrDIJRMgUf9zsKQ==
-  dependencies:
-    node-addon-api "^3.1.0"
-    node-gyp-build "^4.2.1"
-    readable-stream "^3.6.0"
-
 lzma-native@^8.0.5:
   version "8.0.5"
   resolved "https://registry.yarnpkg.com/lzma-native/-/lzma-native-8.0.5.tgz#096758ef54ff2402cc36d25e3bb5921efaa1c156"
@@ -5461,13 +5398,6 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-node-abi@^2.19.2:
-  version "2.30.0"
-  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-2.30.0.tgz#8be53bf3e7945a34eea10e0fc9a5982776cf550b"
-  integrity sha512-g6bZh3YCKQRdwuO/tSZZYJAw622SjsRfJ2X0Iy4sSOHZ34/sPPdVBn8fev2tj7njzLwuqPw9uMtGsGkO5kIQvg==
-  dependencies:
-    semver "^5.4.1"
-
 node-abi@^3.0.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.5.0.tgz#26e8b7b251c3260a5ac5ba5aef3b4345a0229248"
@@ -5497,7 +5427,7 @@ node-gyp-build@^4.2.1:
   resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.3.0.tgz#9f256b03e5826150be39c764bf51e993946d71a3"
   integrity sha512-iWjXZvmboq0ja1pUGULQBexmxq8CV4xBhX7VDOTbL7ZR4FOowwY/VOtRxBN/yKxmdGoIp4j5ysNT4u3S2pDQ3Q==
 
-node-gyp@^8.1.0, node-gyp@^8.4.0, node-gyp@^8.4.1:
+node-gyp@^8.4.0, node-gyp@^8.4.1:
   version "8.4.1"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-8.4.1.tgz#3d49308fc31f768180957d6b5746845fbd429937"
   integrity sha512-olTJRgUtAb/hOXG0E93wZDs5YiJlgbXxTwQAFHyNlRsXQnYzUaF2aGgujZbw+hR8aF4ZG/rST57bWMWD16jr9w==
