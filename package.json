@@ -31,7 +31,7 @@
     "@electron-forge/maker-deb": "^6.0.0-beta.68",
     "@electron-forge/maker-rpm": "^6.0.0-beta.70",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.67",
-    "@electron-forge/maker-zip": "^6.0.0-beta.68",
+    "@electron-forge/maker-zip": "^6.0.3",
     "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-commonjs": "^23.0.2",
     "@rollup/plugin-node-resolve": "^15.0.1",
