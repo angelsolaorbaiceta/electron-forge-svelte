@@ -38,7 +38,7 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/jest": "^27.4.1",
     "@types/node": "^18.11.10",
-    "concurrently": "^7.5.0",
+    "concurrently": "^7.6.0",
     "electron": "^23.1.0",
     "jest": "^25.5.4",
     "node-sass": "^7.0.3",
