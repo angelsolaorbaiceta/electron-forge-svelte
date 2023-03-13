@@ -37,7 +37,7 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/jest": "^27.4.1",
-    "@types/node": "^18.11.10",
+    "@types/node": "^18.15.1",
     "concurrently": "^7.6.0",
     "electron": "^23.1.0",
     "jest": "^25.5.4",
