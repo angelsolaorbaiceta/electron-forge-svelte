@@ -39,7 +39,7 @@
     "@types/jest": "^27.4.1",
     "@types/node": "^20.5.9",
     "concurrently": "^8.2.1",
-    "electron": "^26.1.0",
+    "electron": "^26.2.2",
     "jest": "^25.5.4",
     "node-sass": "^9.0.0",
     "rollup": "^2.79.1",
